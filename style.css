@@ -1,0 +1,240 @@
+body{
+    font-family: Bahnschrift;
+    background-color: #EEF6F5;
+}
+
+.headings{
+    height: 50px;
+}
+
+.headings a{
+    height:100%;
+}
+
+.headings h4{
+    margin:auto;
+    color:lightblue;
+    font-weight:bold;
+}
+
+.menu{
+    text-decoration: none;
+    color: dimgray;
+    background-color: white;
+    padding: 0px;
+}
+
+.menu a{
+    padding: 15px;
+    font-size: 15px;
+}
+.side{
+        box-shadow: 0 0 5px black;
+}
+
+
+.b{
+    color: red;
+}
+
+.options{
+    padding: 5px;
+}
+.options:hover{
+   box-shadow: 0 0 8px blue;
+    padding: 0px;
+}
+.option a{
+    text-decoration: none;
+    margin: 1px;
+}
+
+::placeholder {
+    color: #7d7d7d;
+    opacity: 1;
+    font-size: 14.5px;
+}
+
+.headernav{
+    width: 100%;
+}
+
+.headernav a{
+    width: 100%;
+}
+
+/* NAV */
+
+.menu img{
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+}
+
+.navactive {
+    border-top: 0.1px solid #607d8b;
+    border-bottom: 0.1px solid #607d8b;
+    font-weight:bold;
+    color:#607d8b;
+    background-color:#e6faff;
+    box-shadow:2px 2px 8px -4px  black
+}
+
+/* END OF NAV */
+
+
+/* LOG IN */
+
+.loginbody {
+    background-image:url(Images/background_login.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65%;
+    margin:48%;
+}
+
+.login {
+    padding: 5px;
+    margin: auto;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+     box-shadow: 0 0 3px black;
+}
+
+.ds {
+   margin-top: 2%;
+   border-right: 4.5px solid white;
+    height: 135px;
+    width: 42%;
+
+}
+
+.ds img {
+    margin-top: -20px;
+    height: 180px;
+    width: 185px;
+}
+
+.loginform {
+   margin-top: 2.5%;
+    width: 55%;
+    margin-left: 9px;
+}
+
+
+.login input[type=text], input[type=password]{
+    margin: auto;
+    margin-bottom: 8px;
+    width: 95%;
+    padding:7px;
+    padding-left: 15px;
+    border: 0.5px solid #164d65;
+    box-shadow: 0 0 2px black;
+    
+}
+
+.login input[type=submit] {
+    color: whitesmoke;
+    background: linear-gradient(#2a7ea0,#114358);
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    margin-bottom: 8px; 
+}
+
+.login input[type=submit]:hover {
+    color: whitesmoke;
+    background: linear-gradient(#278fbb,#1b617e); 
+}
+
+/* Table CSS */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+td, th {
+    border-bottom: 1px solid #bdc3c7;
+    color: darkslategray;
+    font-size:14px;
+    padding: 6px;
+    padding-left: 10px; 
+    text-align: left;
+    
+}
+
+.mytable td{
+  cursor:pointer;   
+}
+
+
+th{
+    color: white;
+}
+
+/* End of Table CSS*/
+/*Home bg image */
+#container {
+    background:transparent url(Images/DOJ_Davao2.png) no-repeat center center;
+    background-size: 500px 500px;
+    
+} 
+/*End of bg image */
+
+.nopadding{
+    padding: 0px;
+}
+
+.center{
+    margin: auto;
+}
+
+/* HOME */
+
+.home{
+    background-image:url(Images/DOJ_background2.png);
+    background-size: cover;
+}
+
+.tbox{ 
+    padding: 10px;
+    margin: auto;
+    margin-top:15%;   
+    width: 40%;
+     
+}
+/*for link not active*/
+    .not-active{
+        pointer-events: none;
+        cursor: default;
+        text-decoration: line-through;
+        color:red;
+        
+    }
+
+
+/* System Admin Page */
+
+.adminheading h4{
+    color:lightblue;
+    font-weight:bold;
+}
+
+.adminheading a{
+    text-decoration: none;
+}
+
+/* Pending Button */
+
+.pendingbtn {
+    position:fixed;
+    bottom:0;
+    right:0;
+}
